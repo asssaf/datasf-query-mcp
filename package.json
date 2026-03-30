@@ -1,0 +1,22 @@
+{
+  "name": "sf-property-data-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "agents": "^0.8.6",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "typescript": "6.0.2",
+    "wrangler": "^4.77.0"
+  }
+}
